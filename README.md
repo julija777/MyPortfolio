@@ -1,7 +1,7 @@
 # MyPortfolio
-This is my Portfolio as part of the School of Code projects.
+This is my Portfolio as part of the School of Code project, still in progress as my nearest plans to refactor it from Vanilla JS to React.
 
-Here is a link to see the project in a browser:
+Here is a link to see the project in a browser (not the final product yet):
 
 https://julija777.github.io/MyPortfolio/
 

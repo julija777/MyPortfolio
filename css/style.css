@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
 
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
@@ -144,7 +143,7 @@ header {
 }
 
 .logo {
-  max-width: 100px;
+  max-width: 200px;
   
 }
 
@@ -272,6 +271,7 @@ header {
     min-width: 250px;
     position: relative;
     z-index: 2;
+    
   }
 
   .section__subtitle--intro {
@@ -404,6 +404,44 @@ header {
   transform: scale(1.2);
   opacity: 0.5;
 }
+
+/*  Cards for My Work section  */
+
+.card {
+  display:inline-block;
+  box-shadow: 0 4px 8px 0 #edb6a3;
+  transition: 0.3s;
+  width: 35%;
+  height: 30%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-height: 500px;
+  min-width: min-content;
+  
+
+  }
+
+
+
+
+ 
+  
+.card:hover {
+  box-shadow: 0 8px 16px 0 #18c8e7;
+ 
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+  width: 100%;
+}
+
+
+/*  Footer of the Page  */
 
 .footer {
   background: #111;

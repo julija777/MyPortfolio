@@ -13,7 +13,7 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: #eeffdb;
+  --clr-light: #F0EFEB;
   --clr-dark: #353446;
   --clr-accent: #edb6a3;
 
@@ -145,6 +145,7 @@ header {
 
 .logo {
   max-width: 100px;
+  
 }
 
 .nav {

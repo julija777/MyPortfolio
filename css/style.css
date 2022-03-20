@@ -396,7 +396,7 @@ header {
 }
 
 .portfolio__item:focus {
-  position: relative;
+  position: centre;
   z-index: 2;
 }
 
@@ -433,7 +433,7 @@ header {
 }
 
 img {
-  border-radius: 5px 5px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .container {

@@ -12,9 +12,11 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: #dfffd6;
-  --clr-dark: #7161ef;
-  --clr-accent: #FFCFD2;
+  --clr-light: #0e4675;
+  --clr-dark: #9ae1d4;
+  --clr-accent: #ff9690;
+  --clr-pink: #F9D4DB;
+  --clr-blue: #3c7eb4;
 
 
   --fs-h1: 3rem;
@@ -97,12 +99,15 @@ h3 {
 
 h1 {
   font-size: var(--fs-h1);
+  color: #9ae1d4;
 }
 h2 {
   font-size: var(--fs-h2);
+  color: #9ae1d4;
 }
 h3 {
   font-size: var(--fs-h3);
+  color: #9ae1d4;
 }
 
 .section__title {
@@ -131,7 +136,7 @@ h3 {
 }
 
 .section__subtitle--work {
-  color: var(--clr-accent);
+  color: var(--clr-light);
   font-weight: var(--fw-bold);
   margin-bottom: 2em;
 }
@@ -144,7 +149,9 @@ header {
 }
 
 .logo {
-  max-width: 200px;
+  max-width: 150px;
+  
+  
   
 }
 
@@ -289,11 +296,11 @@ header {
 /*  My services section  */
 
 .my-services {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-light);
   background-image: url(../img/services-bg.jpg);
   background-size: cover;
   background-blend-mode: normal;
-  color: var(--clr-light);
+  color: var(--clr-dark);
   text-align: center;
 }
 
@@ -376,8 +383,9 @@ header {
 }
 
 .my-work {
-  background-color: var(--clr-dark);
+  background-color: var(--clr-blue);
   color: var(--clr-light);
+
   text-align: center;
 }
 
@@ -410,7 +418,7 @@ header {
 
 .card {
   display:inline-block;
-  box-shadow: 0 4px 8px 0 #edb6a3;
+  box-shadow: 0 4px 8px 0 #ff9690;
   transition: 0.3s;
   width: 35%;
   height: 30%;
@@ -418,7 +426,7 @@ header {
   margin-bottom: 10px;
   max-height: 500px;
   min-width: min-content;
-  
+
 
   }
 
@@ -445,8 +453,8 @@ img {
 /*  Footer of the Page  */
 
 .footer {
-  background: #111;
-  color: var(--clr-accent);
+  background: #0e4675;
+  color: var(--clr-dark);
   text-align: center;
   padding: 2.5em 0;
   font-size: var(--fs-h3);

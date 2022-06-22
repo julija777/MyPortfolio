@@ -416,21 +416,24 @@ header {
 /*  Cards for My Work section  */
 
 .card {
-  display:inline-block;
-  box-shadow: 0 4px 8px 0 #ff9690;
-  transition: 0.3s;
-  width: 35%;
-  height: 30%;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  max-height: 500px;
-  min-width: min-content;
+  position: relative;
+  display: flex;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--clr-light);
+  background-clip: border-box;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+
 
 
   }
 
 
-
+div.card {
+  margin: 0 auto;
+  max-width: 500px;
+}
 
  
   
@@ -439,15 +442,37 @@ header {
  
 }
 
-img {
-  border-radius: 10px 10px 10px 10px;
+img.card {
+  max-width: 50%;
+  height: auto;
+  border-radius: 0.5em;
+  vertical-align: middle;
   
 }
 
+
+.card__body {
+  padding: 1.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
 .container {
+  display: flex;
   padding: 2px 16px;
   width: 100%;
 }
+
 
 
 /*  Footer of the Page  */

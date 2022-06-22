@@ -7,6 +7,6 @@ https://julija777.github.io/MyPortfolio/
 
 Ideas and insperations taken from Scrimba and Kevin Powell's videos.
 
-Logo created with https://www.canva,com/
+Logo created with https://www.canva.com/
 
 Some of the pictures taken from https://unsplash.com/
